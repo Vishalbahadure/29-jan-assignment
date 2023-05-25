@@ -1,0 +1,249 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5c38a989-7079-42b8-9083-e1a2f0ef3b4a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q.1. who developed python programming langauge?\n",
+    "Ans-Python programming language was developed by Guido van Rossum"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "83ddb6b4-65e0-44eb-b94b-eff3fb5cad99",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q2. which type of programming does python support\n",
+    "Ans-Object-Oriented Programming (OOP)\n",
+    "    Procedural Programming\n",
+    "    Functional Programming\n",
+    "    Imperative Programming"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "00b11a75-2d7c-4dd0-933e-28b0e37576ff",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q3.is python case sensitive when dealing with identifiers\n",
+    "Ans-Yes, Python is a case-sensitive language when it comes to identifiers. \n",
+    "     This means that uppercase and lowercase letters are considered distinct and can result in different identifiers."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e2c49177-af11-48df-9a16-ebbdb6e463bd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q4. what is the correct extension of the python file\n",
+    "Ans-The correct extension for Python files is \".py\". When saving a Python file, it is recommended to use the \n",
+    ".py extension to indicate that it contains Python code. \n",
+    "This convention helps both developers and tools to recognize and handle the file as a Python script or module."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1c7f70b9-69f7-4bc6-8d33-44a54f8e150c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q5.is python code compiled or interpreted\n",
+    "Ans-Python is an interpreted language, meaning that Python code is executed directly by\n",
+    "an interpreter without prior compilation into machine code"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "964e5296-854f-49df-81bb-851a659e6f8a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q6.name of few blocks of code used to define in python langauge\n",
+    "Ans-1.function Block:\n",
+    "A function block in Python is defined using the def keyword followed by the function name, parentheses for parameters, and a colon\n",
+    "2.Conditional Block (if-elif-else):\n",
+    "Conditional blocks are used to perform different actions based on specific conditions. They are defined using the if, elif (optional), and else\n",
+    "3.Loop Blocks (for and while):\n",
+    "Loop blocks are used for repetitive execution of a section of code. Python has two types of loops: for and while. The code block within the loo"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7a8448fd-2b78-4153-8e6a-79a5fd1c874f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q7.state a charater used to given single line comments in python\n",
+    "Ans-Comments are useful for adding explanatory notes or documenting your code. \n",
+    "They provide additional information to other developers or to yourself in the future, without affecting the actual execution of the program.\n",
+    "Comments are useful for adding explanatory notes or documenting your code. \n",
+    "They provide additional information to other developers or to yourself in the future, without affecting the actual execution of the program."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "503ba2ab-80af-4f36-b074-3a30a5724f32",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q8.mention function which can help us to find the version of python that  we are curecntly working on\n",
+    "Ans-To find the version of Python you are currently working with, you can use the sys module's version attribute. \n",
+    "The sys module provides access to system-specific parameters and functions, including information about the Python interpreter.\n",
+    "\n",
+    "Here's an example of how you can use sys.version to retrieve the Python version:\n",
+    "import sys\n",
+    "\n",
+    "print(\"Python version:\", sys.version)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0e3b98a2-15be-4c7b-8af8-f31472f75d6b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q9.python supports the creation of anonymous function at runtime using construct called\n",
+    "Ans-Python supports the creation of anonymous functions at runtime using a construct called \"lambda\" functions.\n",
+    "Lambda functions are also known as anonymous functions because they don't require a formal function definition with a name.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "68258ae8-5850-4087-82ee-39f9d8be915e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q10.what does pip stand for python\n",
+    "Ans-n Python, \"pip\" stands for \"Pip Installs Packages.\" Pip is a package management system used to install, manage,\n",
+    "and uninstall software packages written in Python. \n",
+    "It is the standard package manager for Python and is widely used to install third-party libraries \n",
+    "and modules from the Python Package Index (PyPI) as well as other package repositories."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d5921874-5139-407a-b7ac-00e7f09576d0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q11.mention a few built in function in python\n",
+    "Ans-print(): Used to display output on the console.\n",
+    "len(): Returns the length (number of items) of an object like a string, list, or tuple.\n",
+    "input(): Reads input from the user through the console.\n",
+    "int(), float(), str(), bool(): Used for type conversion to integer, float, string, and boolean, respectively.\n",
+    "range(): Generates a sequence of numbers within a specified range.\n",
+    "type(): Returns the type of an object.\n",
+    "max(), min(): Returns the maximum or minimum value from a sequence or a set of arguments.\n",
+    "sum(): Returns the sum of all elements in a sequence.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "23b049bf-371a-4251-bfb5-01d158a031c4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q12.what is the maximum possible length of an identifier in python\n",
+    "Ans-n Python, the maximum possible length of an identifier is not explicitly defined. However, there are practical limitations to consider."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e30229ac-4a81-4003-877e-018bbc2efe95",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q13.what are the benifits of using python\n",
+    "Ans-1.Readability and Simplicity: Python emphasizes code readability with its clean and straightforward syntax. \n",
+    "2.Versatility and Flexibility: Python is a versatile language that can be used for a wide range of applications\n",
+    "3.Large and Active Community: Python has a thriving and supportive community of developers worldwide. \n",
+    "4.Extensive Libraries and Frameworks\n",
+    "5.Platform Independence\n",
+    "6.Rapid Development and Prototyping\n",
+    "7.Integration Capabilities"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "62b3c430-cb18-4bbd-aa69-6fdfcf9920e1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q14.how is memory managment in python\n",
+    "Ans-Memory management in Python is handled automatically by the Python runtime environment using a combination of techniques, \n",
+    "including garbage collection and reference counting.\n",
+    "Reference Counting: \n",
+    "memory allocation"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "47c5e3b4-380f-4525-98b6-94078c485df8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q15.how to install python on window and set path variable\n",
+    "Ans-Download Python:\n",
+    "Go to the official Python website at https://www.python.org/. On the homepage, \n",
+    "click on the \"Downloads\" tab and select the latest stable version of Python for Windows. Choose either the 32-bit or 64-bit installer, depending on your system.\n",
+    "\n",
+    "Run the Installer:\n",
+    "Once the installer is downloaded, run it. Make sure to check the box that says \"Add Python to PATH\" during the installation process. \n",
+    "This will automatically set the path variable for you.\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6f791222-7596-4d57-9928-9e46b4724209",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q16.is indentstion required in python\n",
+    "Ans-Yes, indentation is required in Python. Indentation plays a crucial role in Python's syntax and structure"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
